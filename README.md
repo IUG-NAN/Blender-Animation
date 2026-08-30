@@ -1,4 +1,4 @@
-# Blender Animation Utilities
+# Blender Animation Utilities (BAU)
 
 Blender 5.2 LTS tools for preparing game-animation Actions for Unreal Engine.
 
