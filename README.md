@@ -1,5 +1,5 @@
 # Blender Animation Utilities (BAU)
-
+BlenderでMotionPath（ベジェカーブ）を指定することでプロシージャルにアニメーションを作成できるアドオンです。
 Blender 5.2 LTS tools for preparing game-animation Actions for Unreal Engine.
 
 ## Layout
