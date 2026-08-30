@@ -1,0 +1,16 @@
+# Third-party reference material: inspect locally, never publish it from this repository.
+/references/
+
+# Earlier local experiments retained outside the canonical add-on package.
+/ue_animation_utilities/
+/ue_animation_utilities_045/
+
+# Local Blender and Python artifacts.
+__pycache__/
+*.py[cod]
+*.blend1
+*.blend2
+*.blend@
+
+# Locally built/installable archives.
+*.zip
