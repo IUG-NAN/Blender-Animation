@@ -31,11 +31,25 @@ Blender 5.2 LTS tools for game-animation Actions (Unreal Engine, Unity or any FB
 	- AutoRigProなどのFBX出力を使ってください。開始から終了までのフレームでアニメーションがベイクされて出力されます。
 
 ---
-## Local installation
+## インストール方法
 
-Copy `addon/bau_animation_utilities` to Blender's user add-ons directory, then enable **Animation Utilities (BAU)** from Blender Preferences.
+1. [Releases](https://github.com/IUG-NAN/Blender-Animation/releases) から、最新版の **bau_animation_utilities-x.x.x.zip** をダウンロードします。
+	- 「Code > Download ZIP」や、Releaseの「Source code (zip)」はリポジトリ全体なので、そのままではインストールできません。
+2. Blender 5.2 で **Edit > Preferences > Add-ons** を開き、右上の **∨** から **Install from Disk...** を選んで、ダウンロードしたzipを指定します。
+3. 一覧に出た **Animation Utilities (BAU)** にチェックを入れて有効にします。
+4. Preferencesの左下のメニューから **Save Preferences** を押します（保存しないと、Blenderが落ちたときに無効へ戻ることがあります）。
 
-0.4以前（UE Animation Utilities）から更新する場合は、先に旧アドオンを無効にしてから新しいアドオンを有効にしてください。.blendに保存されたWalk SetupとProfileは、ファイルを開いたときに引き継がれます（Cycle LengthはCycle Countに換算）。旧Pelvis World BobのEmptyとコンストレイントは、同じ骨盤にPelvis Bobを掛け直したときに取り除かれます。
+使う場所:
+- Mirror Action / Pelvis Bob: 3Dビューの右クリック（ポーズモード・オブジェクトモード） > Animation Utilities。Mirror ActionはDope Sheetの Action メニューにもあります。
+- Walk Setup: 3Dビューのサイドバー（N） > Tool タブ > Walk Setup
+
+### 0.4以前（UE Animation Utilities）からの更新
+
+先に旧「UE Animation Utilities」を無効にしてから、上の手順で新しいアドオンを入れてください。.blendに保存されたWalk SetupとProfileは、ファイルを開いたときに引き継がれます（Cycle LengthはCycle Countに換算）。旧Pelvis World BobのEmptyとコンストレイントは、同じ骨盤にPelvis Bobを掛け直したときに取り除かれます。
+
+### 開発用（リポジトリから直接入れる場合）
+
+`addon/bau_animation_utilities` フォルダをBlenderのユーザーアドオンのフォルダへコピーし、Preferencesで有効にします。
 
 ## Tests
 
