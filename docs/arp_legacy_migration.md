@@ -1,6 +1,6 @@
 # Auto-Rig Pro旧リグのBlender 5.2移行
 
-`tools/blender/migrate_arp_legacy_52.py` は、古いAuto-Rig ProリグをBlender 5.2で移行するための任意実行スクリプトである。UE Animation Utilitiesアドオンの機能には含めない。ARP本体を頻繁に更新しても、移行ロジックと検証結果を独立して保守できるようにするためである。
+`tools/blender/migrate_arp_legacy_52.py` は、古いAuto-Rig ProリグをBlender 5.2で移行するための任意実行スクリプトである。Animation Utilities (BAU) アドオンの機能には含めない。ARP本体を頻繁に更新しても、移行ロジックと検証結果を独立して保守できるようにするためである。
 
 ## 検証済み範囲
 
